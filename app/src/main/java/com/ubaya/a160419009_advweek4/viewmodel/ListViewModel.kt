@@ -20,7 +20,7 @@ class ListViewModel:ViewModel() {
 
         studentsLD.value = arrayListOf<Student>(student1, student2, student3)
         loadingErrorLD.value = false
-        loadingDoneLD.value = false
+        loadingDoneLD.value = true
 
     }
 }
