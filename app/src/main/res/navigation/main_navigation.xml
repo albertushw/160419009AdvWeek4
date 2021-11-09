@@ -22,5 +22,8 @@
             android:name="iduser"
             app:argType="string"
             android:defaultValue="0" />
+        <action
+            android:id="@+id/actionStudentList"
+            app:destination="@id/studentListFragment" />
     </fragment>
 </navigation>
